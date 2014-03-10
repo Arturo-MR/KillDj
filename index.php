@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<title>KillDJ - Music for Real People</title>
 	<link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" type="image/png" href="images/favicon3.png" />
+    <link rel="icon" type="image/png" href="images/favicon5.png" />
+    <h1><img src="images/KillDJ, 3.png" fixed/></h1>
 </head>
 <body>
 	<header>
@@ -13,7 +14,6 @@
 			include "alta.php";
 		?>
 	</header>
-	
 </body>
 <script src = "MyScript.js"></script>
 </html>
