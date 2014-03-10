@@ -1,9 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
+<head>	
 	<meta charset="UTF-8">
-	<title>KillDJ</title>
+	<title>KillDJ - Music for Real People</title>
 	<link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="images/favicon3.png" />
 </head>
 <body>
 	<header>
@@ -14,4 +15,5 @@
 	</header>
 	
 </body>
+<script src = "MyScript.js"></script>
 </html>

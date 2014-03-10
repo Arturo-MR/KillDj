@@ -12,3 +12,13 @@ header ul li{
 	
 	display: inline;
 }
+
+label{
+	font-size:25px;
+	margin: 15px;
+	text-align: left;
+	font-family: 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; 
+	font-style: normal; 
+	font-weight: normal; 
+	font-size: 24px; 
+}
