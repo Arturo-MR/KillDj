@@ -2,27 +2,10 @@ body{
 	font-size: 16px;
 	background-color:#B3B3B3;
 }
-header{
-  background-color: white;
-  border-bottom: 2px solid #283744;
-  font-size: 20px;
-  font-weight: bold;
-  height: 40px;
-	margin: 1em auto;
-  position: relative;
-  width: 100%;
+header
+{
+  padding-top: -5px;
 }
-header ul{
-  margin: 0 auto;
-  padding: 0;
-  height: 40px;
-  width: 600px;
-}
-header ul li{
-	display: inline;
-  float: left;
-}
-
 label{
 	font-size:25px;
 	margin: 15px;
@@ -58,4 +41,31 @@ input:focus{
 
 input:valid{
   background-color: #ddffdd;
+}
+section{
+  padding: 6px;
+}
+
+#logo{
+  margin: -10px auto; /*corregir*/
+  position: absolute;
+}
+
+#menu{
+  font-size: 20px;
+  font-weight: bold;
+  height: 40px;
+  margin: 1em auto;
+  position: relative;
+  width: 100%;
+}
+#menu ul{
+  margin: 0 auto;
+  padding: 0;
+  height: 40px;
+  width: 600px;
+}
+#menu ul li{
+  display: inline;
+  float: left;
 }

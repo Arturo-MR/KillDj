@@ -5,15 +5,20 @@
 	<title>KillDJ - Music for Real People</title>
 	<link rel="stylesheet" href="css/styles.css">
     <link rel="icon" type="image/png" href="images/favicon5.png" />
-    <h1><img src="images/KillDJ, 3.png" fixed/></h1>
+    
 </head>
 <body>
 	<header>
+		<div id="logo"><img src="images/KillDJ, 3.png" fixed/></div>
 		<?php include "menu.php"; 
-		if(@$_GET['type'] == 'alta');
-			include "alta.php";
 		?>
 	</header>
+	<section>
+		<?php
+		if(@$_GET['type'] == 'new');
+			include "alta.php"; ?>
+
+	</section>
 </body>
 <script src = "MyScript.js"></script>
 </html>
