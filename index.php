@@ -9,7 +9,7 @@
 </head>
 <body>
 	<header>
-		<div id="logo"><img src="images/KillDJ, 3.png" fixed/></div>
+		<div id="logo"><a href="index.php"><img src="images/KillDJ, 3.png" fixed/></a></div>
 		<?php include "menu.php"; 
 		?>
 	</header>
