@@ -68,4 +68,5 @@ section{
 #menu ul li{
   display: inline;
   float: left;
+  text-decoration: none;
 }
