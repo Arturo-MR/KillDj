@@ -18,5 +18,5 @@
       <label>Album Artwork</label>
       	<input type="file" name="artwork" id="artwork" /></p>
 </div>
-<button id = "boton">Enviar</button>
+<button id = "boton">Submit</button>
 </form>
