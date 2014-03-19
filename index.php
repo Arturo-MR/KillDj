@@ -17,6 +17,7 @@
 		<?php
 		if(@$_GET['type'] == 'new');
 			include "alta.php"; ?>
+			
 
 	</section>
 </body>
