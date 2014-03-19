@@ -9,10 +9,10 @@
 </head>
 <body>
 	<header>
-		<div id="logo"><a href="index.php"><img src="images/KillDJ, 3.png" fixed/></a></div>
-		<?php include "menu.php"; 
-		?>
+		<div id="logo"><a href="index.php"><img src="images/logo.png" fixed/></a></div>
 	</header>
+	<?php include "menu.php"; 
+		?>
 	<section>
 		<?php
 		if(@$_GET['type'] == 'new');

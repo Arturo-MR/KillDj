@@ -58,8 +58,8 @@ input:valid{
   width: 125px;
 }
 #logo{
-  float: left;
-  padding: 5px 0px;
+  
+  margin: 1em;
 }
 /*Menu*/
 .nav{

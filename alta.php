@@ -1,6 +1,6 @@
 <?php include "config.php"; ?>
 <link rel="stylesheet" href="css/styles.css">
-<form action="" method="post" enctype="multipart/form-data">
+<form action="index.php?type=alta" method="post" enctype="multipart/form-data">
 	<div class="tabla">
 		  <label>ID</label>
 			<input name="id" type="text" id="id" size="25" maxlength="10" required pattern=".{4,}[0-9]{6}" title="Remember the ID's standard: 4 Characters, 6 Numbers"/>
@@ -31,9 +31,33 @@
 					<?php } ?>
 				</select>
 				<p><label>Precio</label></p>
-				<input></input>
+				<input type="text" name="precio"/>
 	      		<label>Album Artwork</label>
-	      		<input type="text" name="artwork" id="artwork" /><!-- Change type for "file" -->
-	      		<button id = "boton">New</button>
+	      		<input type="file" name="artwork" id="artwork" /><!-- Change type for "file" -->
+	      		<!-- <input type="submit" name ="enviar" id="enviar" value="Enviar" class="boton"/> -->
+	      		<button id = "boton" name="enviar">New</button>
 	</div>
 </form>
+<?php
+if (isset($_POST['enviar'])){
+	$id = $_POST['id'];
+	$band = $_POST['band'];
+	$album = $_POST['album'];
+	$year = $_POST['year'];
+	$genero ='rock';
+	$pais = $_POST['pais'];
+	$precio = $_POST['precio'];
+
+	$archivo = $_FILES['artwork']['name']; //Nombre del archivo
+	$temporal = $_FILES['artwork']['tmp_name']; //Archivo
+
+	move_uploaded_file($temporal,"images/".$archivo);
+
+	mysql_query("INSERT INTO discos
+				VALUES ('$id','$band','$album','$year','$genero','$pais','$precio')");	
+
+?>
+<p>
+	Datos insertados
+</p>
+<?php }	?>
