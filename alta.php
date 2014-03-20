@@ -54,7 +54,7 @@ if (isset($_POST['enviar'])){
 	move_uploaded_file($temporal,"images/".$archivo);
 
 	mysql_query("INSERT INTO discos
-				VALUES ('$id','$band','$album','$year','$genero','$pais','$precio')");	
+				VALUES ('$id','$band','$album','$archivo','$year','$genero','$pais','$precio')");	
 
 ?>
 <p>
