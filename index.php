@@ -33,29 +33,43 @@
 				Home
 			</span>
 		</div>
+	<?php
+		$sql = mysql_query("SELECT * FROM discos WHERE id");
+
+		while ($row = mysql_fetch_object($sql)) {
+	 ?>
 	<section class="container">
 		<article class="band">
 			<figure class="portada">
-				<img src="images/arctic_monkeys_am-portada.jpg" width="128" height="128" alt="Portada"/>
+				<img src="images/<?php echo $row->portada; ?>" width="128" height="128" alt="Portada"/>
 			</figure>
-			<p class="banda">
-				Artick Monkets
-			</p>
-			<p class="album">
-				AM
-			</p>
-			<div class="etiqueta">
-				Genero
+			<div class="left">
+				<p class="banda">
+					<?php echo $row->album; ?>
+				</p>
+				<p class="banda">
+					<?php echo $row->grupo; ?>
+				</p>
 			</div>
-			<div class="etiqueta">
-				Pais
-			</div>
-			<div class="etiqueta">
-				Precio
+			<div class="right">
+				<div class="etiqueta">
+					<?php echo $row->genero; ?>
+				</div>
+				<div class="etiqueta">
+					<?php echo $row->salida; ?>
+				</div>
+				<div class="etiqueta">
+					<?php echo $row->pais; ?>
+				</div>
+				<div class="etiqueta">
+					<?php echo $row->precio; ?>
+				</div>
 			</div>
 
 		</article>
 	</section>
+	<hr>
+	<?php } ?>
 
 	
 
