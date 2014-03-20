@@ -10,22 +10,25 @@ body
 article,
 header,
 section
-  display block
+  display: block
 
 b,
 strong
-  font-weight bold
+  font-weight: bold
 
 h1
   font-size: 2em
   margin: .67em 0
+  svg:not(:root)
   overflow: hidden
 
 figure
   margin: 1em 40px
 
 hr
-  margin-top 70px
+  -moz-box-sizing: content-box
+  box-sizing: content-box
+  height: 0
 
 @font-face
   font-family: 'sfotipy'
@@ -62,7 +65,9 @@ figure
 
 img
   vertical-align: top
+
 .banda
+<<<<<<< HEAD
 <<<<<<< HEAD
   text-align center
   margin-top -80px
@@ -72,6 +77,12 @@ img
 .album 
   
 >>>>>>> daa8649c001b93252925455bffd79d2134a7de09
+=======
+  
+
+.album
+  
+>>>>>>> parent of 0d19977... V.1.1
 
 .button-menu
   color: #333
@@ -85,22 +96,12 @@ img
   border-bottom: 1px solid #818181
 
 .container
-  padding: 1em 
-  position relative
+  font-size: 0
+  padding: 1.4rem
+  text-align: center
 
 .etiqueta
-  margin-top -85px
-  padding 40px
-
-.header 
-  height: 3.5em
   
-  .title
-    font-size: 1.1em
-    line-height: 3.5em
-    margin: 0
-    text-align: center
-
 .menu
   display: none
 
@@ -110,15 +111,13 @@ img
 .padding
   padding: 1em
 
-.portada
-  border 0
-  overflow hidden
-
-.right
-  float right
-.left
-  float
-
-
+.header 
+  height: 3.5em
+  
+  .title
+    font-size: 1.1em
+    line-height: 3.5em
+    margin: 0
+    text-align: center
 
 
