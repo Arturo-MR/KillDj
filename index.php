@@ -4,13 +4,13 @@
 ?>
 <html lang="en">
 <head>	
+
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>KillDJ - Music for Real People</title>
 	<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" type="image/png" href="images/favicon5.png" />
-    
+
 </head>
 <body>
 	<header class="header relative border-bottom">
@@ -18,19 +18,13 @@
 		<nav class="menu">
 			<ul class="list">
 				<li class="item">
-					<a href="#">Top Hits</a>
+					<a href="#">New</a>
 				</li>
 				<li class="item">
-					<a href="#">Playlist</a>
+					<a href="#">Change</a>
 				</li>
 				<li class="item">
-					<a href="#">Top Hits</a>
-				</li>
-				<li class="item">
-					<a href="#">Top Hits</a>
-				</li>
-				<li class="item">
-					<a href="#">Top Hits</a>
+					<a href="#">Delete</a>
 				</li>
 			</ul>
 		</nav>
@@ -41,7 +35,25 @@
 		</div>
 	<section class="container">
 		<article class="band">
-			
+			<figure class="portada">
+				<img src="images/arctic_monkeys_am-portada.jpg" width="128" height="128" alt="Portada"/>
+			</figure>
+			<p class="banda">
+				Artick Monkets
+			</p>
+			<p class="album">
+				AM
+			</p>
+			<div class="etiqueta">
+				Genero
+			</div>
+			<div class="etiqueta">
+				Pais
+			</div>
+			<div class="etiqueta">
+				Precio
+			</div>
+
 		</article>
 	</section>
 

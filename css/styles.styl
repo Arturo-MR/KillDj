@@ -12,13 +12,6 @@ header,
 section
   display: block
 
-audio,
-canvas,
-progress,
-video
-  display: inline-block
-  vertical-align: baseline
-
 b,
 strong
   font-weight: bold
@@ -26,31 +19,7 @@ strong
 h1
   font-size: 2em
   margin: .67em 0
-
-mark
-  background: #ff0
-  color: #000
-
-small
-  font-size: 80%
-
-sub,
-sup
-  font-size: 75%
-  line-height: 0
-  position: relative
-  vertical-align: baseline
-
-sup
-  top: -.5em
-
-sub
-  bottom: -.25em
-
-img
-  border: 0
-
-svg:not(:root)
+  svg:not(:root)
   overflow: hidden
 
 figure
@@ -60,32 +29,6 @@ hr
   -moz-box-sizing: content-box
   box-sizing: content-box
   height: 0
-
-pre
-  overflow: auto
-
-fieldset
-  border: 1px solid #c0c0c0
-  margin: 0 2px
-  padding: .35em .625em .75em
-
-legend
-  border: 0
-  padding: 0
-
-textarea
-  overflow: auto
-
-optgroup
-  font-weight: bold
-
-table
-  border-collapse: collapse
-  border-spacing: 0
-
-td,
-th
-  padding: 0
 
 @font-face
   font-family: 'sfotipy'
@@ -123,6 +66,12 @@ figure
 img
   vertical-align: top
 
+.banda
+  
+
+.album
+  
+
 .button-menu
   color: #333
   left: .5em
@@ -130,55 +79,19 @@ img
   position: absolute
   top: 50%
 
-.container
-  padding: 1.4rem
-  font-size: 0
-  text-align: center
-
-.action
-  color: #fff
-  font-size: 1.2em
-  margin-right: .5em
-
-.action:last-child
-  margin-right: 0
-
-.action.gray
-  color: #818181
-
-.action.red
-  color: #f00
-
-.actions
-  position: absolute
-  bottom: 0
-  left: 0
-  right: 0
-  background: rgba(0, 0, 0, 0.3)
 
 .border-bottom
   border-bottom: 1px solid #818181
 
-.name
-  color: #333
-
-.menu
-  display: none
-
-.relative
-  position: relative
-
-.author
-  color: #818181
-
-.center-block
-  margin: 0 auto
-
-.center-text
+.container
+  font-size: 0
+  padding: 1.4rem
   text-align: center
 
-.right-text
-  text-align: right
+.etiqueta
+  
+.menu
+  display: none
 
 .relative
   position: relative
@@ -186,71 +99,13 @@ img
 .padding
   padding: 1em
 
-.padding-tb
-  padding: 1em 0
-
-.progress
-  margin: 1em 0
-  position: relative
-
-.progress .min,
-.progress .max
-  font-size: .8em
-  position: absolute
-  top: -5px
-
-.progress .min
-  left: 0
-
-.progress .max
-  right: 0
-
-.progress .total
-  background: #818181
-  border-radius: 5px
-  height: 5px
-  margin: 0 auto
-  width: 75%
-
-.progress .state
-  background: #bd255b
-  border-radius: 5px
-  height: 5px
-  width: 30%
-  position: relative
-
-.progress .circle
-  background: #333
-  border-radius: 50%
-  height: 10px
-  position: absolute
-  right: 0
-  top: -2px
-  width: 10px
-
-.header
+.header 
   height: 3.5em
+  
+  .title
+    font-size: 1.1em
+    line-height: 3.5em
+    margin: 0
+    text-align: center
 
-.header .title
-  font-size: 1.1em
-  line-height: 3.5em
-  margin: 0
-  text-align: center
-
-.song
-  display: inline-block
-  font-size: 1rem
-  margin-bottom: 1em
-  margin-right: 1em
-  text-align: left
-  width: 8rem
-
-.song:nth-child(even)
-  margin-right: 0
-
-.song p
-  margin: .5em 0
-
-.playing.small
-  width: 20em
 
