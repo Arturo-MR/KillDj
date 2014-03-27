@@ -7,7 +7,7 @@
 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title>KillDJ - Music for Real People</title>
+	<title>KillDJ - Music for Cool People</title>
 	<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/styles.css">
 
