@@ -41,6 +41,7 @@
 			<label for="Matricula"><?php echo $row->genero; ?></label>
 			<label for="sexo"><?php echo $row->pais; ?></label>
 			<label for="sexo"><?php echo $row->precio; ?></label>
+			
 		</p>
 			
 
